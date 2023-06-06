@@ -112,13 +112,13 @@ img {
   display: flex;
   gap: 40px;
 }
-
+/*
 .header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+}*/
 
 .header-menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -203,8 +203,7 @@ img {
 /**-------------GOALS----------*/
 
 .goals {
-  margin-top: 115px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 /*?.goals-list {
 }*/
@@ -264,11 +263,10 @@ img {
 /**-------------TEAM----------*/
 .team {
   background-color: var(--cloud-background-color);
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
-  padding-top: 120px;
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
