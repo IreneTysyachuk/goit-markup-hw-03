@@ -129,7 +129,6 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--focused-color);
-  text-decoration: underline;
 }
 
 .header-adress {
